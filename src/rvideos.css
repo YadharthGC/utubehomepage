@@ -1,0 +1,43 @@
+.rvideos {
+    background-color: #F9F9F9;
+    padding-left: 20px;
+}
+
+.rcm {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.text {
+    line-height: 17px;
+    margin-left: 15px;
+}
+
+.videocard {
+    width: 270px;
+    margin-bottom: 40px;
+}
+
+.cardimage {
+    height: 140px;
+    width: 250px;
+}
+
+.rdvideos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: flex;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+.channel {
+    padding-top: 3%;
+}
+
+.second {
+    color: gray;
+}

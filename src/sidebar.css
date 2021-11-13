@@ -1,0 +1,49 @@
+.sidebarrow {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.sicons {
+    color: #606060;
+}
+
+.stitle {
+    flex: 1;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.sidebarrow:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.sidebarrow:hover>.sicons {
+    color: red;
+}
+
+.sidebarrow:hover>.stitle {
+    font-weight: 700;
+}
+
+.sidebarrow.selected {
+    background-color: gray;
+}
+
+.sidebarrow.selected>.sicons {
+    color: red;
+}
+
+.sidebarrow.selected>.stitle {
+    font-weight: 700;
+}
+
+.sidebar>hr {
+    height: 1px;
+    border: 0;
+    background-color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
